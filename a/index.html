@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body style="display: flex">
+		<div style="margin: 20px; width: 200px; height: 200px; background-color: gray; position: relative">
+			<div
+				style="
+					position: absolute;
+					top: 10%;
+					left: 14%;
+					width: 100px;
+					height: 150px;
+					background-color: black;
+					transform: rotate(48deg);
+					border-radius: 0 0 50% 50%;
+				"
+			></div>
+			<div
+				style="
+					position: absolute;
+					width: 100px;
+					height: 150px;
+					top: 10%;
+					right: 14%;
+					background-color: black;
+					transform: rotate(-48deg);
+					border-radius: 0 0 50% 50%;
+				"
+			></div>
+			<div
+				style="
+					position: absolute;
+					width: 60px;
+					height: 50px;
+					top: 80%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					clip-path: polygon(50% 0, 100% 100%, 0 100%);
+					background-color: black;
+				"
+			></div>
+		</div>
+		<!-- <div style="margin: 20px; width: 200px; height: 200px; background-color: gray"></div>
+		<div style="margin: 20px width: 200px; height: 200px; background-color: gray"></div>
+		<div style="margin: 20px; width: 200px; height: 200px; background-color: gray"></div> -->
+	</body>
+</html>

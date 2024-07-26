@@ -59,7 +59,7 @@ function App() {
 					<div className='h-screen pt-10'>ろーでぃんぐ中...</div>
 				) : (
 					<>
-						<div className='grid grid-cols-3 gap-5 pt-5 place-items-center pb-5'>
+						<div className='grid md:grid-cols-3 grid-cols-1 gap-5 pt-5 place-items-center pb-5'>
 							{pokemonData.map((pokemon, i) => {
 								return <Card key={i} pokemon={pokemon} />;
 							})}
